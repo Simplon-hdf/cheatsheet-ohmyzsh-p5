@@ -1,10 +1,10 @@
-# 🎨 Thèmes Oh My Zsh
+# 🎨 Thèmes
 
-## ✨ Vue d'ensemble
+##  Vue d'ensemble
 
 Les thèmes transforment votre terminal en un outil à la fois esthétique et fonctionnel. Ils personnalisent le prompt pour afficher des informations essentielles comme le répertoire courant, l'état Git, et plus encore.
 
-## 🚀 Utilisation
+## Utilisation
 
 ```bash
 # Dans votre ~/.zshrc
@@ -14,7 +14,7 @@ ZSH_THEME="nom_du_theme"
 source ~/.zshrc
 ```
 
-## 🌟 Thèmes populaires
+##  Thèmes populaires
 
 ### robbyrussell (défaut)
 Simple et efficace, affiche l'état Git et le répertoire courant.
@@ -24,7 +24,7 @@ Simple et efficace, affiche l'état Git et le répertoire courant.
 
 ### agnoster
 Un prompt segmenté élégant avec informations contextuelles.
-> 💡 Nécessite une police Powerline
+> 💡 Nécessite la police Powerline
 
 ![Agnoster](https://cloud.githubusercontent.com/assets/2618447/6316862/70f58fb6-ba03-11e4-82c9-c083bf9a6574.png)
 
@@ -39,7 +39,7 @@ Ultra-rapide et hautement personnalisable.
 - **bira**: Deux lignes avec user@host
 - **fino-time**: Élégant avec date et heure
 
-## 🔧 Créer votre thème
+## Créer votre thème
 
 1. Créez un fichier `~/.oh-my-zsh/custom/themes/mon_theme.zsh-theme`
 2. Définissez votre PROMPT:
@@ -56,7 +56,7 @@ PROMPT='%{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)> '
 # $(git_prompt_info) - info Git
 ```
 
-## 🎭 Astuces
+##  Astuces
 
 ### Palette de couleurs
 ```bash
@@ -79,12 +79,12 @@ $(git_prompt_info)    # Info basique
 $(git_prompt_status)  # Statut détaillé
 ```
 
-## 🔍 Dépannage
+## Dépannage
 
 - **Caractères cassés?** → Installez la police Nerd Font
 - **Prompt lent?** → Essayez powerlevel10k ou un thème plus léger
 
-## 📚 Ressources
+## Ressources
 
 - [Galerie de thèmes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
 - [Variables pour thèmes](https://github.com/ohmyzsh/ohmyzsh/wiki/Theme-Variables)
