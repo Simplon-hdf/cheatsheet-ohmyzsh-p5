@@ -1,17 +1,20 @@
-# Welcome to MkDocs
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [Introduction]()
+- [Installation/Désinstallation]()
+- [Plugins](/docs/plugin.md)
+  - [Comment activer un plugin](/docs/plugin.md#comment-activer-un-plugin)
+  - [Plugins Essentiels](/docs/plugin.md#plugins-essentiels)
+    - [git](/docs/plugin.md#1-git)
+    - [aliases](/docs/plugin.md#2-aliases)
+    - [npm](/docs/plugin.md#3-npm)
+    - [z](/docs/plugin.md#4-z)
+    - [sudo](/docs/plugin.md#5-sudo)
+    - [web-search](/docs/plugin.md#6-web-search)
+    - [copypath](/docs/plugin.md#7-copypath)
+    - [extract](/docs/plugin.md#8-extract)
+  - [Plugins pour Développeurs](/docs/plugin.md#plugins-pour-développeurs)
+    - [vscode](/docs/plugin.md#1-vscode)
+    - [docker](/docs/plugin.md#2-docker)
+    - [python](/docs/plugin.md#3-python)
+  - [Astuces](/docs/plugin.md#astuces)
+  - [Plugins Recommandés pour Débutants](/docs/plugin.md#plugins-recommandés-pour-débutants)
+- [Themes]()
