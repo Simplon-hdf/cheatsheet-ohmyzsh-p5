@@ -33,4 +33,4 @@ Pourquoi souffrir quand on peut sourire ? Oh My Zsh part du principe que les dé
 
 ## 🔍 Prêt à transformer votre expérience terminal ?
 
-[🌟 Découvrez tous les secrets d'Oh My Zsh sur le site officiel](https://ohmyz.sh/) et donnez à votre terminal les super-pouvoirs qu'il mérite !
+[🌟 Découvrez tous les secrets d'Oh My Zsh](https://simplon-hdf.github.io/cheatsheet-ohmyzsh-p5/) et donnez à votre terminal les super-pouvoirs qu'il mérite !
