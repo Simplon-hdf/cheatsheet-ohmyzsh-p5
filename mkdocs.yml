@@ -1,4 +1,5 @@
 site_name: OhMyZsh
+site_url: https://simplon-hdf.github.io/cheatsheet-ohmyzsh-p5/
 theme: 
     name: terminal
     palette: dark
