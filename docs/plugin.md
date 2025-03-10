@@ -95,6 +95,97 @@ Alias pour Python et environnements virtuels
 - `activate` : source venv/bin/activate
 - `deactivate` : désactive l'environnement virtuel
 
+## Plugins Avancés Super Utiles
+
+### 1. autojump
+Navigation rapide entre répertoires basée sur l'historique de navigation.
+```bash
+# Installation préalable nécessaire
+# Sur macOS: brew install autojump
+# Sur Ubuntu: apt-get install autojump
+
+# Utilisation
+j nom_partiel_du_dossier  # Saute directement au dossier correspondant
+```
+
+### 2. fzf
+Recherche floue puissante pour filtrer l'historique, les fichiers et plus encore.
+```bash
+# Installation préalable nécessaire
+# brew install fzf ou git clone https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
+
+# Utilisation
+CTRL+R  # Recherche dans l'historique des commandes
+CTRL+T  # Recherche de fichiers
+ALT+C   # Navigation rapide entre répertoires
+```
+
+### 3. zsh-autosuggestions
+Suggestions automatiques basées sur l'historique des commandes.
+```bash
+# Installation
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+# Activation dans ~/.zshrc
+plugins=(... zsh-autosuggestions)
+
+# Utilisation
+# Commencez à taper, acceptez la suggestion avec flèche droite
+```
+
+### 4. zsh-syntax-highlighting
+Coloration syntaxique des commandes en temps réel.
+```bash
+# Installation
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+# Activation dans ~/.zshrc
+plugins=(... zsh-syntax-highlighting)
+```
+
+### 5. thefuck
+Corrige automatiquement les commandes erronées.
+```bash
+# Installation préalable nécessaire
+# pip install thefuck ou brew install thefuck
+
+# Utilisation
+apt-get install python  # Commande avec erreur
+fuck  # Corrige automatiquement en sudo apt-get install python
+```
+
+### 6. dirhistory
+Navigation rapide dans l'arborescence avec des raccourcis clavier.
+```bash
+# Utilisation
+ALT+Gauche  # Revenir au dossier parent
+ALT+Droite  # Aller au premier sous-dossier
+ALT+Haut    # Naviguer dans l'historique des dossiers (précédent)
+ALT+Bas     # Naviguer dans l'historique des dossiers (suivant)
+```
+
+### 7. history-substring-search
+Recherche intelligente dans l'historique des commandes.
+```bash
+# Utilisation
+# Tapez le début d'une commande
+# Utilisez les flèches haut/bas pour parcourir les commandes correspondantes
+```
+
+### 8. colored-man-pages
+Pages de manuel colorées pour une meilleure lisibilité.
+```bash
+# Utilisation
+man ls  # Affiche la page de manuel avec coloration syntaxique
+```
+
+### 9. gitignore
+Génération rapide de fichiers .gitignore.
+```bash
+# Utilisation
+gi list                      # Liste tous les templates disponibles
+gi python,node >> .gitignore # Génère un .gitignore pour Python et Node.js
+```
 
 ## Astuces
 
@@ -108,6 +199,22 @@ alias | grep nomDuPlugin
 source ~/.zshrc
 ```
 
+3. Configuration recommandée pour une productivité maximale :
+```zsh
+plugins=(
+  git
+  z
+  sudo
+  extract
+  web-search
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+  history-substring-search
+  colored-man-pages
+  dirhistory
+)
+```
+
 ## Plugins Recommandés pour Débutants
 
 1. git
@@ -115,5 +222,7 @@ source ~/.zshrc
 3. sudo
 4. extract
 5. web-search
+6. zsh-autosuggestions
+7. colored-man-pages
 
 Ces plugins sont un excellent point de départ pour améliorer votre productivité avec Oh My Zsh.
