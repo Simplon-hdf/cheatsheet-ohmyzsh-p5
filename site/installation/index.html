@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="generator" content="mkdocs-1.6.1, mkdocs-terminal-4.7.0">
+     
+     
+    <link rel="icon" type="image/png" sizes="192x192" href="../img/android-chrome-192x192.png" />
+<link rel="icon" type="image/png" sizes="512x512" href="../img/android-chrome-512x512.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png" />
+<link rel="shortcut icon" type="image/png" sizes="48x48" href="../img/favicon.ico" />
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png" />
+
+
+    
+ 
+<title>Installation - OhMyZsh</title>
+
+
+<link href="../css/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+<link href="../css/fontawesome/css/solid.min.css" rel="stylesheet">
+<link href="../css/normalize.css" rel="stylesheet">
+<link href="../css/terminal.css" rel="stylesheet">
+<link href="../css/theme.css" rel="stylesheet">
+<link href="../css/theme.tile_grid.css" rel="stylesheet">
+<link href="../css/theme.footer.css" rel="stylesheet">
+<!-- dark color palette -->
+<link href="../css/palettes/dark.css" rel="stylesheet">
+
+<!-- page layout -->
+<style>
+/* initially set page layout to a one column grid */
+.terminal-mkdocs-main-grid {
+    display: grid;
+    grid-column-gap: 1.4em;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+/*  
+*   when side navigation is not hidden, use a two column grid.  
+*   if the screen is too narrow, fall back to the initial one column grid layout.
+*   in this case the main content will be placed under the navigation panel. 
+*/
+@media only screen and (min-width: 70em) {
+    .terminal-mkdocs-main-grid {
+        grid-template-columns: 4fr 9fr;
+    }
+}</style>
+
+
+
+     
+    
+    
+
+    
+    <!-- search css support -->
+<link href="../css/search/bootstrap-modal.css" rel="stylesheet">
+<!-- search scripts -->
+<script>
+    var base_url = "..",
+    shortcuts = "{}";
+</script>
+<script src="../js/jquery/jquery-1.10.1.min.js" defer></script>
+<script src="../js/bootstrap/bootstrap.min.js" defer></script>
+<script src="../js/mkdocs/base.js" defer></script>
+    
+    
+    
+    
+    <script src="../search/main.js"></script>
+    
+
+    
+</head>
+
+<body class="terminal"><div class="container">
+    <div class="terminal-nav">
+        <header class="terminal-logo">
+            <div id="mkdocs-terminal-site-name" class="logo terminal-prompt"><a href="/" class="no-style">OhMyZsh</a></div>
+        </header>
+        
+        <nav class="terminal-menu">
+            
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="./" class="menu-item active" property="item" typeof="WebPage">
+                        <span property="name">Installation</span>
+                    </a>
+                    <meta property="position" content="0">
+                </li>
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../plugin/" class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">Plugins</span>
+                    </a>
+                    <meta property="position" content="1">
+                </li>
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../theme/" class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">Themes</span>
+                    </a>
+                    <meta property="position" content="2">
+                </li>
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../settings/" class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">Paramètres</span>
+                    </a>
+                    <meta property="position" content="3">
+                </li>
+                
+                    
+                    
+
+
+<li property="itemListElement" typeof="ListItem">
+    <a href="#" class="menu-item" data-toggle="modal" data-target="#mkdocs_search_modal" property="item" typeof="SearchAction">
+        <i aria-hidden="true" class="fa fa-search"></i> <span property="name">Search</span>
+    </a>
+    <meta property="position" content="4">
+</li>
+                    
+            </ul>
+            
+        </nav>
+    </div>
+</div>
+        
+    <div class="container">
+        <div class="terminal-mkdocs-main-grid"><aside id="terminal-mkdocs-side-panel"><nav>
+  
+    <ul class="terminal-mkdocs-side-nav-items">
+        
+          
+
+
+
+<li class="terminal-mkdocs-side-nav-li">
+    
+    
+    
+        
+        <span class="
+
+    terminal-mkdocs-side-nav-item--active">Installation</span>
+    
+    
+    
+  </li>
+        
+          
+
+
+
+<li class="terminal-mkdocs-side-nav-li">
+    
+    
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../plugin/">Plugins</a>
+        
+    
+    
+    
+  </li>
+        
+          
+
+
+
+<li class="terminal-mkdocs-side-nav-li">
+    
+    
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../theme/">Themes</a>
+        
+    
+    
+    
+  </li>
+        
+          
+
+
+
+<li class="terminal-mkdocs-side-nav-li">
+    
+    
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../settings/">Paramètres</a>
+        
+    
+    
+    
+  </li>
+        
+    </ul>
+  
+</nav><hr>
+<nav>
+    <ul>
+        <li><a href="#installation-de-ohmyzsh">Installation de OhMyZsh</a></li>
+        <li><a href="#prerequis">Prérequis :</a></li><li><a href="#oh-my-zsh-est-compatible-avec-les-systemes-dexploitation-suivants">Oh My Zsh est compatible avec les systèmes d'exploitation suivants :</a></li><li><a href="#installation-de-base">Installation de base</a></li><li><a href="#autre-methode">Autre methode</a></li><li><a href="#installation-avancee-oh-my-zsh">Installation Avancée Oh My Zsh</a></li><li><a href="#desinstallation-de-oh-my-zsh">Désinstallation de Oh My Zsh</a></li>
+    </ul>
+</nav>
+</aside>
+            <main id="terminal-mkdocs-main-content">
+<section id="mkdocs-terminal-content">
+    <h1 id="installation-de-ohmyzsh">Installation de OhMyZsh</h1>
+<h3 id="prerequis">Prérequis :</h3>
+<ul>
+<li>Zsh (v4.3.9 ou plus récent, préférence pour v5.0.8+).</li>
+<li>curl ou wget.</li>
+<li>git (v2.4.11 ou supérieur recommandé).</li>
+</ul>
+<h2 id="oh-my-zsh-est-compatible-avec-les-systemes-dexploitation-suivants">Oh My Zsh est compatible avec les systèmes d'exploitation suivants :</h2>
+<table>
+<thead>
+<tr>
+<th>Système d'exploitation</th>
+<th>Statut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Android</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>freeBSD</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Linux</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>macOS</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>OS/2 Warp</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>Windows (WSL2)</td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
+<h2 id="installation-de-base">Installation de base</h2>
+<p>Oh My Zsh est installé en exécutant l'une des commandes suivantes dans votre terminal. Vous pouvez l'installer via la ligne de commande avec l'un ou l'autre de curl, wget, ou un autre outil similaire.</p>
+<table>
+<thead>
+<tr>
+<th>Méthode</th>
+<th>Commande</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>curl</td>
+<td><code>sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"</code></td>
+</tr>
+<tr>
+<td>wget</td>
+<td><code>sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"</code></td>
+</tr>
+<tr>
+<td>Fetch</td>
+<td><code>sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="autre-methode">Autre methode</h2>
+<p>Alternativement, l'installateur est également disponible en miroir en dehors de GitHub. Cette URL peut être nécessaire si vous êtes dans un pays comme la Chine ou l'Inde, où certains fournisseurs d'accès à Internet bloquent <code>raw.githubusercontent.com</code></p>
+<table>
+<thead>
+<tr>
+<th>Méthode</th>
+<th>Commande</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>curl</td>
+<td><code>sh -c "$(curl -fsSL https://install.ohmyz.sh/)"</code></td>
+</tr>
+<tr>
+<td>wget</td>
+<td><code>sh -c "$(wget -O- https://install.ohmyz.sh/)"</code></td>
+</tr>
+<tr>
+<td>Fetch</td>
+<td><code>sh -c "$(fetch -o - https://install.ohmyz.sh/)"</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="installation-avancee-oh-my-zsh">Installation Avancée Oh My Zsh</h2>
+<h3 id="repertoire-personnalise">Répertoire Personnalisé</h3>
+<p>Emplacement par défaut: <code>~/.oh-my-zsh</code></p>
+<p>Pour changer le répertoire:</p>
+<pre><code class="language-bash">ZSH=&quot;$HOME/.dotfiles/oh-my-zsh&quot; sh install.sh
+</code></pre>
+<h3 id="installation-automatisee">Installation Automatisée</h3>
+<pre><code class="language-bash">
+sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&quot; &quot;&quot; 
+
+--unattended
+</code></pre>
+<p>Alternative si blocage: <code>https://install.ohmyz.sh</code></p>
+<h3 id="installation-depuis-un-fork">Installation depuis un Fork</h3>
+<p>Variables acceptées:
+* <code>REPO</code> (défaut: <code>ohmyzsh/ohmyzsh</code>)
+* <code>REMOTE</code> (défaut: <code>https://github.com/${REPO}.git</code>)
+* <code>BRANCH</code> (défaut: <code>master</code>)</p>
+<p>Exemple:</p>
+<pre><code class="language-bash">REPO=apjanke/oh-my-zsh BRANCH=edge sh install.sh
+</code></pre>
+<h3 id="installation-manuelle">Installation Manuelle</h3>
+<ol>
+<li>Cloner: <code>git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh</code></li>
+<li>Sauvegarder (optionnel): <code>cp ~/.zshrc ~/.zshrc.orig</code></li>
+<li>Créer config: <code>cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc</code></li>
+<li>Changer shell: <code>chsh -s $(which zsh)</code></li>
+<li>Redémarrer session</li>
+</ol>
+<h3 id="resolution-de-problemes">Résolution de problèmes</h3>
+<ul>
+<li>Vérifier <code>PATH</code> dans <code>~/.zshrc</code></li>
+<li>Vérifier variable <code>ZSH</code> dans <code>~/.zshrc</code></li>
+</ul>
+<h3 id="obtenir-des-mises-a-jour">Obtenir des Mises à Jour</h3>
+<p>Par défaut, un rappel pour vérifier les mises à jour vous sera proposé toutes les 2 semaines. Vous pouvez choisir d'autres modes de mise à jour en ajoutant une ligne dans votre fichier <code>~/.zshrc</code>, <strong>avant le chargement de Oh My Zsh</strong> :</p>
+<ol>
+<li>Mise à jour automatique sans demande de confirmation :</li>
+</ol>
+<pre><code class="language-bash">zstyle ':omz:update' mode auto
+</code></pre>
+<ol>
+<li>Simplement offrir un rappel tous les quelques jours, s'il y a des mises à jour disponibles :</li>
+</ol>
+<pre><code class="language-bash">zstyle ':omz:update' mode reminder
+</code></pre>
+<ol>
+<li>Pour désactiver entièrement les mises à jour automatiques :</li>
+</ol>
+<pre><code class="language-bash">zstyle ':omz:update' mode disabled
+</code></pre>
+<p><strong>REMARQUE</strong> : vous pouvez contrôler la fréquence à laquelle Oh My Zsh vérifie les mises à jour avec le paramètre suivant :</p>
+<pre><code class="language-bash"># Ceci vérifiera les mises à jour tous les 7 jours
+zstyle ':omz:update' frequency 7
+# Ceci vérifiera les mises à jour chaque fois que vous ouvrez le terminal (non recommandé)
+zstyle ':omz:update' frequency 0
+</code></pre>
+<h3 id="verbosite-des-mises-a-jour">Verbosité des Mises à Jour</h3>
+<p>Vous pouvez également limiter la verbosité des mises à jour avec les paramètres suivants :</p>
+<pre><code class="language-bash">zstyle ':omz:update' verbose default # invite de mise à jour par défaut
+
+zstyle ':omz:update' verbose minimal # seulement quelques lignes
+
+zstyle ':omz:update' verbose silent # seulement les erreurs
+</code></pre>
+<h3 id="mises-a-jour-manuelles">Mises à Jour Manuelles</h3>
+<p>Si vous souhaitez effectuer une mise à jour à tout moment (peut-être que quelqu'un vient de publier un nouveau plugin et vous ne voulez pas attendre une semaine ?), vous devez simplement exécuter :</p>
+<pre><code class="language-bash">omz update
+</code></pre>
+<p><strong>Remarque</strong></p>
+<p>Si vous souhaitez automatiser ce processus dans un script, vous devriez appeler directement le script <code>upgrade</code>, comme ceci :</p>
+<pre><code class="language-bash">$ZSH/tools/upgrade.sh
+</code></pre>
+<p>Consultez plus d'options dans la FAQ : Comment mettre à jour Oh My Zsh ?</p>
+<p><strong>L'UTILISATION DE</strong> <code>omz update --unattended</code> <strong>A ÉTÉ SUPPRIMÉE, CAR ELLE PRÉSENTE DES EFFETS SECONDAIRES.</strong></p>
+<h2 id="desinstallation-de-oh-my-zsh">Désinstallation de Oh My Zsh</h2>
+<p>Oh My Zsh n'est pas pour tout le monde. Vous nous manquerez, mais nous voulons que cette séparation soit facile.</p>
+<p>Si vous souhaitez désinstaller <code>oh-my-zsh</code>, exécutez simplement <code>uninstall_oh_my_zsh</code> depuis la ligne de commande. Il se supprimera et restaurera votre configuration précédente de <code>bash</code> ou <code>zsh</code>.</p>
+</section>
+
+            </main>
+        </div>
+        <hr><footer>
+    <div class="terminal-mkdocs-footer-grid">
+        <div id="terminal-mkdocs-footer-copyright-info">
+             Site built with <a href="http://www.mkdocs.org">MkDocs</a> and <a href="https://github.com/ntno/mkdocs-terminal">Terminal for MkDocs</a>.
+        </div>
+    </div>
+</footer>
+    </div>
+
+    
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="alertdialog" aria-modal="true" aria-labelledby="searchModalLabel">
+    <div class="modal-dialog modal-lg" role="search">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="searchModalLabel">Search</h5>
+                <button type="button" class="close btn btn-default btn-ghost" data-dismiss="modal"><span aria-hidden="true">x</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p id="searchInputLabel">Type to start searching</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" aria-labelledby="searchInputLabel" placeholder="" id="mkdocs-search-query" title="Please enter search terms here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No document matches found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+</body>
+
+</html>
