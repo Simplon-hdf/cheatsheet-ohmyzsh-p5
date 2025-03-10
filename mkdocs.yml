@@ -1,4 +1,7 @@
 site_name: OhMyZsh
+theme: 
+    name: terminal
+    palette: dark
 nav:
   - Installation: installation.md
   - Plugins: plugin.md
