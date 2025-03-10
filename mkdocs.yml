@@ -1,1 +1,6 @@
-site_name: My Docs
+site_name: OhMyZsh
+nav:
+  - Installation: installation.md
+  - Plugins: plugin.md
+  - Themes: theme.md
+  - Paramètres: settings.md
