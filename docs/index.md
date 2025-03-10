@@ -1,17 +1,73 @@
-# Welcome to MkDocs
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [Installation/Désinstallation](installation.md)
+  - [Installation](installation.md#installation)
+      - [Prérequis](installation.md#prérequis)
+      - [Systèmes compatibles](installation.md#oh-my-zsh-est-compatible-avec-les-systèmes-dexploitation-suivants)
+      - [Installation de base](installation.md#installation-de-base)
+      - [Méthode alternative](installation.md#autre-methode)
+      - [Installation avancée](installation.md#installation-avancée-oh-my-zsh)
+        - [Répertoire personnalisé](installation.md#répertoire-personnalisé)
+        - [Installation automatisée](installation.md#installation-automatisée)
+        - [Installation depuis un fork](installation.md#installation-depuis-un-fork)
+        - [Installation manuelle](installation.md#installation-manuelle)
+      - [Résolution de problèmes](installation.md#résolution-de-problèmes)
+      - [Mises à jour](installation.md#obtenir-des-mises-à-jour)
+        - [Modes de mise à jour](installation.md#obtenir-des-mises-à-jour)
+        - [Fréquence des mises à jour](installation.md#obtenir-des-mises-à-jour)
+        - [Verbosité des mises à jour](installation.md#verbosité-des-mises-à-jour)
+        - [Mises à jour manuelles](installation.md#mises-à-jour-manuelles)
+  - [Désinstallation](installation.md#désinstallation-de-oh-my-zsh)
+- [Plugins](plugin.md)
+  - [Comment activer un plugin](plugin.md#comment-activer-un-plugin)
+  - [Plugins Essentiels](plugin.md#plugins-essentiels)
+    - [git](plugin.md#1-git)
+    - [aliases](plugin.md#2-aliases)
+    - [npm](plugin.md#3-npm)
+    - [z](plugin.md#4-z)
+    - [sudo](plugin.md#5-sudo)
+    - [web-search](plugin.md#6-web-search)
+    - [copypath](plugin.md#7-copypath)
+    - [extract](plugin.md#8-extract)
+  - [Plugins pour Développeurs](plugin.md#plugins-pour-développeurs)
+    - [vscode](plugin.md#1-vscode)
+    - [docker](plugin.md#2-docker)
+    - [python](plugin.md#3-python)
+  - [Plugins Avancés Super Utiles](plugin.md#plugins-avancés-super-utiles)
+    - [autojump](plugin.md#1-autojump)
+    - [fzf](plugin.md#2-fzf)
+    - [zsh-autosuggestions](plugin.md#3-zsh-autosuggestions)
+    - [zsh-syntax-highlighting](plugin.md#4-zsh-syntax-highlighting)
+    - [thefuck](plugin.md#5-thefuck)
+    - [dirhistory](plugin.md#6-dirhistory)
+    - [history-substring-search](plugin.md#7-history-substring-search)
+    - [colored-man-pages](plugin.md#8-colored-man-pages)
+    - [gitignore](plugin.md#9-gitignore)
+  - [Astuces](plugin.md#astuces)
+  - [Plugins Recommandés pour Débutants](plugin.md#plugins-recommandés-pour-débutants)
+- [Themes](theme.md)
+  - [Vue d'ensemble](theme.md#vue-d'ensemble)
+  - [Utilisation](theme.md#utilisation)
+  - [Thèmes populaires](theme.md#thèmes-populaires)
+    - [robbyrussell](theme.md#robbyrussell)
+    - [agnoster](theme.md#agnoster)
+    - [powerlevel10k](theme.md#powerlevel10k)
+    - [avit](theme.md#avit)
+    - [bira](theme.md#bira)
+    - [fino-time](theme.md#fino-time)
+  - [Créer votre thème](theme.md#créer-votre-thème)
+  - [Astuces](theme.md#astuces)
+    - [Palette de couleurs](theme.md#palette-de-couleurs)
+    - [Prompt sur deux lignes](theme.md#prompt-sur-deux-lignes)
+    - [Intégration Git avancée](theme.md#intégration-git-avancée)
+  - [Dépannage](theme.md#dépannage)
+  - [Ressources](theme.md#ressources)
+- [Paramètres](settings.md)
+  - [Configuration de base](settings.md#configuration-de-base)
+  - [Autocomplétion et correction](settings.md#autocomplétion-et-correction)
+  - [Mises à jour et maintenance](settings.md#mises-à-jour-et-maintenance)
+  - [Comportement du terminal](settings.md#comportement-du-terminal)
+  - [Plugins et extensions](settings.md#plugins-et-extensions)
+  - [Variables d'environnement](settings.md#variables-denvironnement)
+  - [Optimisation des performances](settings.md#optimisation-des-performances)
+  - [Personnalisation](settings.md#personnalisation)
+  - [Problèmes courants et solutions](settings.md#problèmes-courants-et-solutions)
+  - [Bonnes pratiques](settings.md#bonnes-pratiques)
