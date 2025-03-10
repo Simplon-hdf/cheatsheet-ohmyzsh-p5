@@ -1,105 +1,26 @@
-![Logo](https://camo.githubusercontent.com/41da1086e4c3ec341b78f7c4376f3b94aff529e61a5c3211cdae315bf92e97c3/68747470733a2f2f6f686d797a73682e73332e616d617a6f6e6177732e636f6d2f6f6d7a2d616e73692d6769746875622e706e67)
+🚀 Oh My Zsh – Le Terminal Réinventé
+😫 Le problème avec un terminal classique
+Vous avez déjà vécu ces moments de frustration ?
 
-=======
-# Oh My Zsh Cheat Sheet
+Répéter la même commande encore et encore…
+Chercher désespérément une commande tapée la veille.
+Vous perdre dans votre arborescence de fichiers.
+Subir un terminal austère et monotone.
+✨ Oh My Zsh à la rescousse !
+Oh My Zsh est bien plus qu’un simple framework : c’est une révolution pour votre terminal ! Il transforme votre expérience en apportant :
+✅ Des centaines de plugins pour booster votre productivité.
+🎨 Une personnalisation poussée avec des thèmes stylés.
+🧠 Une auto-complétion intelligente et intuitive.
+🔍 Un historique accessible et une navigation simplifiée.
 
-## 1. Introduction
-**Oh My Zsh** est un framework open-source pour la gestion de la configuration de **Zsh**, offrant plusieurs fonctionnalités telles que des thèmes personnalisables, des plugins utiles et des raccourcis pratiques.
+🌈 Pourquoi adopter Oh My Zsh ?
+Parce que...	Au lieu de...
+🖌 Un terminal dynamique et moderne	Subir une interface terne et dépassée
+🏆 Auto-complétion avancée	Taper chaque commande en entier
+🛠 Correction automatique des fautes	Râler après avoir écrit "gti" au lieu de "git"
+🚀 Alias et raccourcis pour gagner du temps	Répéter des commandes interminables
+🐚 Une philosophie simple : efficacité & plaisir
+Pourquoi compliquer ce qui peut être simple ? Avec Oh My Zsh, votre terminal devient un outil puissant, intuitif et agréable à utiliser. Fini l’ère des interfaces rigides, place à un environnement moderne et optimisé pour les développeurs !
 
-### Avantages et caractéristiques :
-- Installation et configuration faciles
-- Support de nombreux thèmes
-- Gestion avancée des plugins
-- Amélioration de l'expérience en ligne de commande
-
----
-
-## 2. Installation et configuration
-### Installer Oh My Zsh :
-Exécutez l'une des commandes suivantes :
-```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-ou
-```sh
-sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-### Changer le shell par défaut en Zsh :
-```sh
-chsh -s $(which zsh)
-```
-
----
-
-## 3. Gestion des plugins
-### Activer des plugins :
-- Modifiez le fichier `~/.zshrc` et ajoutez les plugins dans la section `plugins` :
-```sh
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
-```
-- Rechargez Zsh :
-```sh
-source ~/.zshrc
-```
-
-### Plugins populaires :
-- `git` - Raccourcis pour Git
-- `zsh-autosuggestions` - Suggestions automatiques de commandes
-- `zsh-syntax-highlighting` - Coloration syntaxique des commandes
-
----
-
-## 4. Thèmes (Themes)
-### Changer de thème :
-- Modifiez le fichier `~/.zshrc` et changez la valeur de `ZSH_THEME` :
-```sh
-ZSH_THEME="agnoster"
-```
-- Appliquez les modifications :
-```sh
-source ~/.zshrc
-```
-
-### Thèmes populaires :
-- **agnoster** - Affiche les informations Git et les branches
-- **powerlevel10k** - Hautement personnalisable avec de nombreuses fonctionnalités avancées
-
----
-
-## 5. Commandes et raccourcis utiles
-### Commandes principales :
-- `cd -`  → Retour au répertoire précédent
-- `!!`  → Réexécuter la dernière commande
-- `alias ll='ls -lah'` → Créer un raccourci pour afficher la liste des fichiers
-
-### Raccourcis pratiques :
-- `Ctrl + R` → Rechercher dans l'historique des commandes
-- `Ctrl + U` → Effacer toute la ligne
-- `Ctrl + W` → Supprimer le dernier mot
-
----
-
-## 6. Personnalisation des paramètres
-### Modifier le fichier `.zshrc` :
-```sh
-nano ~/.zshrc
-```
-### Créer des alias personnalisés :
-```sh
-echo "alias gs='git status'" >> ~/.zshrc
-source ~/.zshrc
-```
-
----
-
-## 7. Résolution des problèmes courants
-### Problème : Les commandes ne s'exécutent pas correctement
-**Solution :** Vérifiez le fichier `~/.zshrc` et assurez-vous que les plugins nécessaires sont bien activés.
-
-### Problème : Le thème ne change pas après modification de `~/.zshrc`
-**Solution :** Exécutez la commande suivante :
-```sh
-source ~/.zshrc
-```
-ou **redémarrez votre terminal**.
+🔍 Prêt à révolutionner votre terminal ?
+🌟 Découvrez dès maintenant tous les avantages d’Oh My Zsh et profitez d’un terminal aussi performant que vous !
